@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './pages/Header'
-import Bio from './pages/Bio'
-import SkillList from './pages/SkillList'
-import Education from './pages/Education'
+import Header from './sections/Header'
+import Bio from './sections/Bio'
+import SkillList from './sections/SkillList'
+import Education from './sections/Education'
 
 
 function App() {
