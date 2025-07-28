@@ -1,0 +1,38 @@
+import React from 'react';
+
+const skills = [
+  "Coding",
+  "Cash handling",
+  "Cashiering",
+  "Cleaning",
+  "Commercial Cleaning",
+  "Computer Operation",
+  "Computer Skills",
+  "CSS (less than a year)",
+  "Customer support",
+  "English",
+  "Food Preparation",
+  "Food Safety",
+  "Grocery store",
+  "Guest services",
+  "Hospitality",
+  "HTML",
+  "JavaScript",
+  "Leadership",
+  "Loading & Unloading trucks",
+  "Marketing",
+  "Merchandising",
+  "Microsoft Excel",
+  "Microsoft Office",
+  "Microsoft Word",
+  "Organizational Skills",
+  "Outdoor work",
+  "Pallet Jack",
+  "POS",
+  "Retail Sales",
+  "Stocking",
+  "Typing",
+  "Windows",
+];
+
+export default skills
