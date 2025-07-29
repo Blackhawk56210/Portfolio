@@ -32,30 +32,29 @@ function Header() {
 
   return (
     <div>
-      <img src={Face} alt="selfie" className="h-100 border rounded-md" />
+      <img src={Face} alt="selfie" className="h-100 rounded-[80%]" />
+      {/* onclick to change image to a different one maybe */}
       <div>
-        <h1 ref={h1Ref} onClick={handleClick}>Colby Capraun</h1>
+        <h1 ref={h1Ref} onClick={handleClick} className="hover:cursor-pointer">Colby Capraun</h1>
+        {/* <FontAwesomeIcon  /> */}
         <a
           href="mailto:colbycapraun@gmail.com"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           colbymclaincapraun@gmail.com
         </a>
         <FontAwesomeIcon icon={faGithub} />
         <a
           href="https://github.com/Blackhawk56210"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Github profile
         </a>
         <FontAwesomeIcon icon={faLinkedin} />
         <a
           href="https://www.linkedin.com/in/colby-capraun-a42ba0264/"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Linkedin
         </a>
       </div>
