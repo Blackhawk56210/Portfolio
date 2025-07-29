@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <div>
-      <img src={Face} alt="selfie" className="h-100 rounded-[80%]" />
+      <img src={Face} alt="selfie" className="h-100 rounded-[80%] hover:border-4" />
       {/* onclick to change image to a different one maybe */}
       <div>
         <h1 ref={h1Ref} onClick={handleClick} className="hover:cursor-pointer">Colby Capraun</h1>
