@@ -8,7 +8,7 @@ const skills = [
   "Commercial Cleaning",
   "Computer Operation",
   "Computer Skills",
-  "CSS (less than a year)",
+  "CSS",
   "Customer support",
   "English",
   "Food Preparation",
