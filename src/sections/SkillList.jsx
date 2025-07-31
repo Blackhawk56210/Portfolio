@@ -22,16 +22,17 @@ function SkillList() {
     };
   
     const handleClick = () => {
-      if (skills.current) {
+      if (skillsRef.current) {
         animateCSS(skills.current, "animate__slideOutLeft");
       }
     };
+
+    
   return (
     <>
     <div>
       <h1 ref={skillsRef} onClick={handleClick}>Skills</h1>
-      <div className="flex sp flex-wrap bg-linear-to-bl/hsl from-yellow-400 from-20% to-pink-500 via-80% rounded-md h-150 w-300 bg-cover text- font-semibold text-xl
-      hover:bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%">
+      <div className="flex sp flex-wrap rounded-md h-150 w-300 bg-cover font-semibold text-xl bg-gray-400">
         {skills.map((skills, index) => {
           return (
             <div key={index}>
